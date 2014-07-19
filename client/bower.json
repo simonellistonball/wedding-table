@@ -1,0 +1,9 @@
+{
+  "name": "client",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.4.8",
+    "socket.io-client": "~1.0.5"
+  },
+  "devDependencies": {}
+}

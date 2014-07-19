@@ -1,0 +1,52 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    
+  } 
+  text.surname {
+      font-weight: 900;
+  }
+  
+  line {
+    stroke: #eee;
+  }
+  .links {
+    display: none;
+  }
+  g {
+    background-color: transparent;
+  }
+  
+  line.tie {
+    z-index: -100;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    width: 30%; 
+    border: 1px solid silver;
+    margin: 2px;
+    padding: 5px;
+    background: white;
+    .surname {
+      font-weight: 900;
+    }
+  }
+}
